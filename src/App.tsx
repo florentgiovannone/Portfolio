@@ -1,5 +1,12 @@
+import { BrowserRouter as Router, Routes, Route, useParams } from "react-router-dom";
+import NavBar from "./components/NavBar"
+
 function App() {
-  return <h1>Hello Project 3!</h1>
+  return(
+    <Router>
+    <NavBar/>
+    </Router>
+)
 }
 
 export default App
