@@ -5,17 +5,15 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavBar() {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
-            <Container className="justify-content-center">
-                <Navbar.Brand  href="#home"></Navbar.Brand>
-                <Navbar.Toggle  aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse className="justify-content-center" id="basic-navbar-nav">
-        <Nav className="justify-content-center">
-                        <Nav.Link className="text-center" href="#home">Skills</Nav.Link>
-                        <Nav.Link className="text-center" href="#link">Projects</Nav.Link>
-                        <Nav.Link className="text-center" href="#link">Experience</Nav.Link>
-                        <Nav.Link className="text-center" href="#link">About Me</Nav.Link>
-                        <Nav.Link className="text-center" href="#link">Contact</Nav.Link>
+        <Navbar  className="navy  sticky-top p-2">
+            <Container  className="navy justify-content-center p-0">
+                <Navbar.Toggle aria-controls=" nav " />
+                <Navbar.Collapse className="nav justify-content-center">
+                    <Nav className="navy justify-content-center " >
+                        <Nav.Link className="navy text-center" href="/#aboutMe">About Me</Nav.Link>
+                        <Nav.Link className="navy text-center" href="/#skills">Skills</Nav.Link>
+                        <Nav.Link className="navy text-center" href="/#projects">Projects</Nav.Link>
+                        <Nav.Link className="navy text-center" href="/#experiences">Experience</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

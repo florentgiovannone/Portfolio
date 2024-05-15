@@ -1,0 +1,268 @@
+html {
+    height: 100%;
+    background-color: #31708f;
+}
+
+body {
+    height: 100%;
+}
+h1 {
+    font-size: 80px;
+}
+.hero {
+    height: 93.5vh !important;
+    background-image: url("../assets/images/Hero.jpeg");
+    filter: grayscale();
+    box-shadow: inset 0 0 0 1000px rgba(59, 112, 128, 0.6);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #E0E0E0;
+}
+.skills {
+    background-color: #3B7080 !important;
+        color: #E0E0E0 !important;
+}
+
+.proj {
+    background-color: #0E1C36 !important;
+    color: #E0E0E0 !important;
+}
+
+.exp {
+    background-color: #E0E0E0 !important;
+}
+
+.about {
+    background-color: #E0E0E0 !important;
+    color: #0E1C36 !important;
+}
+
+.nav-link {
+    background-color: #E0E0E0 !important;
+    color: #0E1C36 !important;
+
+}
+
+.nav-link.active {
+    background-color: #0E1C36 !important;
+    color: #E0E0E0 !important;
+}
+
+.tabs {
+    width: 50%;
+    margin: auto;
+}
+.tab {
+    width: 70%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.navy {
+    background-color: #0E1C36 !important;
+    color: #E0E0E0 !important;
+}
+
+.navbar.sticky-top {
+
+    box-shadow: 0 2px 4px #3B7080;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid #0E1C36;
+    width: 50%;
+    margin: auto;
+}
+
+@media (max-width: 1400px) {
+    .carousel {
+        height: 750px;
+        /* Adjust the width as needed */
+        margin: 0 auto;
+        /* Center the carousel horizontally */
+    }
+    .carousel-about {
+        height: 750px;
+        /* Adjust the width as needed */
+        margin: 0 auto;
+        /* Center the carousel horizontally */
+    }
+
+} 
+
+@media (max-width: 1200px) {
+    .carousel {
+        height: 700px;
+        /* Adjust the width as needed */
+        margin: 0 auto;
+        /* Center the carousel horizontally */
+    }
+    .carousel-about {
+        height: 700px;
+        /* Adjust the width as needed */
+        margin: 0 auto;
+        /* Center the carousel horizontally */
+    }
+
+} 
+
+@media (max-width: 900px) {
+    .carousel {
+        height: 1100px;
+        /* Adjust the width as needed */
+        margin: 0 auto;
+        /* Center the carousel horizontally */
+    }
+    .carousel-about {
+        height: 1100px;
+        /* Adjust the width as needed */
+        margin: 0 auto;
+        /* Center the carousel horizontally */
+    }
+    .project {
+            position: flex;
+            flex-direction: column-reverse;
+        }
+
+    .experiences {
+        text-align: center !important;
+        margin: auto !important;
+        }
+} 
+
+
+@media (min-width: 1400px) {
+    .carousel {
+        height: 900px;
+        /* Adjust the width as needed */
+        margin: 0 auto;
+        /* Center the carousel horizontally */
+    }
+    .carousel-about {
+        height: 400px;
+        /* Adjust the width as needed */
+        margin: 0 auto;
+        /* Center the carousel horizontally */
+    }
+}
+@media (min-width: 1800px) {
+    .carousel {
+        height: 1400px;
+        /* Adjust the width as needed */
+        margin: 0 auto;
+        /* Center the carousel horizontally */
+    }
+    .carousel-about {
+        height: 400px;
+        /* Adjust the width as needed */
+        margin: 0 auto;
+        /* Center the carousel horizontally */
+    }
+}
+
+li {
+    width: 70%;
+}
+
+.statement {
+    width: 70%;
+    margin: auto;
+}
+
+.carousel-caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-right: 150px;
+    padding-left: 150px;
+    text-align: center;
+    height: 100%;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: absolute;
+    bottom: 0;
+    /* Position at the bottom */
+    width: auto;
+    /* Adjust width as needed */
+    margin-bottom: 0;
+    /* Remove any default margin */
+    /* Additional styling as needed */
+}
+
+.btn-change1 {
+    height: 40px;
+    width: 120px;
+    margin: 20px;
+    float: left;
+    border: 1px solid #000435 !important;
+    color: #000435;
+    box-shadow: 0 0 1px #ccc;
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -webkit-box-shadow: 0px 0px 0 0 #000435 inset, 0px 0px 0 0 #31708f inset;
+}
+
+.btn-change2 {
+    height: 40px;
+    width: 120px;
+    margin: 20px;
+    float: left;
+    border: 1px solid #000435!important;
+    color: #000435;
+    box-shadow: 0 0 1px #ccc;
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -webkit-box-shadow: 0px 0px 0 0 #E0E0E0 inset, 0px 0px 0 0 #E0E0E0 inset;
+}
+
+.btn-change1:hover {
+    border: 1px solid #000435 !important;
+    box-shadow: 50px 0px 0 0 #000435 inset, -50px 0px 0 0 #000435 inset;
+    -webkit-box-shadow: 50px 0px 0 0 #000435 inset, -50px 0px 0 0 #000435 inset;
+}
+
+.btn-change2:hover {
+    border: 1px solid #E0E0E0 !important;
+    box-shadow: 50px 0px 0 0 #E0E0E0 inset, -50px 0px 0 0 #E0E0E0 inset;
+    -webkit-box-shadow: 50px 0px 0 0 #E0E0E0 inset, -50px 0px 0 0 #E0E0E0 inset;
+    color: #000435;
+}
+.nav-link {
+    color: #E0E0E0;
+    border: 0 !important
+}
+
+.nav-link:hover {
+    color: #31708f;
+    border: 0 !important
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #31708f;
+}
+
+.logo-hero {
+    width: 60px;
+}
+
+.fade-in-container {
+    animation: fade-in 3s;
+}
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 100;
+    }
+}
+
