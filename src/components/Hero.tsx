@@ -7,14 +7,14 @@ function Hero () {
     return (
         <Container fluid className=' hero d-flex align-items-end'>
             <Container fluid>
-                <Row lg={8}>
+                <Row xs={8} xxl={8}>
                     <Col>
                         <h1>Hi. I'm Flo.</h1>
                     </Col>
                 </Row>
-                <Row lg={8}>
-                    <Col xs={4} xxl={4}>
-                        <h2 className='mb-4 '>A Junior Software engineer, with a passion for problem-solving and a commitment to continuous learning</h2>
+                <Row>
+                    <Col xs={8} xxl={8}>
+                        <h2 >A Junior Software engineer, with a passion for problem-solving and a commitment to continuous learning</h2>
                     </Col>
                 </Row>
 
