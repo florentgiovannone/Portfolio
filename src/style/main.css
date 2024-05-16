@@ -17,7 +17,7 @@ h1 {
 }
 .hero {
     height: 93.5vh !important;
-    background-image: url("../assets/images/Hero.jpeg");
+    background-image: url("../assets/images/Hero2.jpeg");
     filter: grayscale();
     box-shadow: inset 0 0 0 1000px rgba(59, 112, 128, 0.6);
     background-position: bottom;
@@ -115,12 +115,13 @@ hr {
         margin: 0 auto;
         /* Center the carousel horizontally */
     }
+        }
+    
 
-} 
 
 @media (max-width: 900px) {
     .carousel {
-        height: 1100px;
+        height: 1200px;
         /* Adjust the width as needed */
         margin: 0 auto;
         /* Center the carousel horizontally */
@@ -131,14 +132,14 @@ hr {
         margin: 0 auto;
         /* Center the carousel horizontally */
     }
-    .project {
+        .project {
             position: flex;
             flex-direction: column-reverse;
         }
-
-    .experiences {
-        text-align: center !important;
-        margin: auto !important;
+    
+        .experiences {
+            text-align: center !important;
+            margin: auto !important;
         }
 } 
 
@@ -156,7 +157,9 @@ hr {
         margin: 0 auto;
         /* Center the carousel horizontally */
     }
+
 }
+
 @media (min-width: 1800px) {
     .carousel {
         height: 1400px;
@@ -170,6 +173,7 @@ hr {
         margin: 0 auto;
         /* Center the carousel horizontally */
     }
+
 }
 
 li {
@@ -257,20 +261,164 @@ li {
     background-color:  var(--green);
 }
 
-.logo-hero {
-    width: 60px;
+
+
+
+/* @property --offset {
+    syntax: '<length>';
+    inherits: false;
+    initial-value: 0.5;
 }
 
-.fade-in-container {
-    animation: fade-in 3s;
+
+h3 {
+    color: inherit;
+    text-underline-offset: var(--offset, 0.2em);
+    text-decoration: underline 0.10em;
+    transition: --offset 400ms, text-decoration-color 400ms;
 }
-@keyframes fade-in {
-    from {
-        opacity: 0;
+
+h3:hover,
+h3:focus {
+    --offset: 0.8em;
+    text-decoration-color: orange;
+}
+
+@supports not (background: paint(something)) {
+    h3 {
+        transition: text-underline-offset 400ms, text-decoration-color 400ms;
     }
 
-    to {
-        opacity: 100;
+    h3:hover,
+    h3:focus {
+        text-underline-offset: 0.4em;
     }
+} */
+
+
+
+.nav-link {
+    position: relative;
+    color: #000;
+    text-decoration: none;
 }
+
+.nav-link:hover {
+    color: #000;
+}
+
+.nav-link::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--green);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+
+}
+
+.nav-link:hover::before {
+    transform: scaleX(0.5);
+}
+
+.nav-link.active {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+}
+
+.nav-link.active:hover {
+    color: #000;
+}
+
+.nav-link.active::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--green);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.nav-link.active:hover::before {
+    transform: scaleX(1);
+}
+
+
+.about h3::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--green);
+    transform: scaleX(0.02);
+    transition: transform 0.3s ease;
+}
+
+.about:hover h3::before {
+    transform: scaleX(0.2);
+}
+
+.skills h3::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--grey);
+    transform: scaleX(0.02);
+    transition: transform 0.3s ease;
+}
+
+.skills:hover h3::before {
+    transform: scaleX(0.2) !important;
+}
+
+.proj h3::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--green);
+    transform: scaleX(0.02);
+    transition: transform 0.3s ease;
+}
+
+.proj:hover h3::before {
+    transform: scaleX(0.2);
+}
+
+.exp h3::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--dark_blue);
+    transform: scaleX(0.02);
+    transition: transform 0.3s ease;
+}
+
+.exp:hover h3::before {
+    transform: scaleX(0.2);
+}
+
 

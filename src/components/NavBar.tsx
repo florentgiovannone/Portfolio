@@ -14,6 +14,7 @@ function NavBar() {
                         <Nav.Link className="navy text-center" href="/#skills">Skills</Nav.Link>
                         <Nav.Link className="navy text-center" href="/#projects">Projects</Nav.Link>
                         <Nav.Link className="navy text-center" href="/#experiences">Experience</Nav.Link>
+
                     </Nav>
                 </Navbar.Collapse>
             </Container>

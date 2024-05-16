@@ -10,18 +10,12 @@ import {
     SassOriginal,  } from 'devicons-react';
 import { Fade } from "react-awesome-reveal";
 function Skills () {
-    return (<>
-
-        <Container fluid className='skills underline-skills p-5'>
-            <span className='anchor' id='skills'></span>
-            <Fade triggerOnce >
-            <Row lg={1} className='justify-content-center'>            
-            <h2 className='   text-center p-4 '> Skills</h2>
-            <span className='  '></span>
-            </Row>
-            </Fade>
-            <Container>
-                <Fade cascade  triggerOnce>
+    return <>
+        <span className='anchor' id='skills'></span>
+        <Container fluid className='skills'>
+            <Fade direction='up'cascade triggerOnce>
+            <h3 className='   text-center p-3 '> Skills</h3>
+            <Container className='pb-5 pt-3'>
             <Row className='justify-content-center' xs='auto' lg={6} >
                 <Col md={2} lg={1} className="    text-center " >    
                     <Html5Original  size='50'/>
@@ -191,11 +185,11 @@ function Skills () {
                     </Card.Body>
                 </Col>
             </Row>
-                </Fade>
-            </Container>
 
+            </Container>
+            </Fade>
         </Container>
 
-    </>)
+    </>
 }
 export default Skills;

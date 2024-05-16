@@ -15,18 +15,17 @@ import { Fade } from "react-awesome-reveal";
 function Projects() {
     return <>
         <span className='anchor' id='projects'></span>
-
-        <Container fluid className='proj pt-5 hover-underline-animation-proj'>
+        <Container fluid className='proj hover-underline-animation-proj'>
             <Fade direction='down' delay={500} triggerOnce>
-        <h3 className=' proj-title text-center  m-0 p-0 '>Projects</h3>
+        <h3 className=' proj-title text-center p-3 '>Projects</h3>
         <Carousel>
             <Carousel.Item>
-                <Row className='carousel'>
+                        <Row className='carousel project'>
                         <Carousel.Caption className=' p-4 m-0  d-flex justify-content-center align-items-center'>
-                        <Row>
+                                <Row className='justify-content-center'>
                                 <Row className='p-0 m-0 justify-content-center align-items-center'>
 
-                                    <Col className='proj' md={6} lg={6} xl={6} xxl={6} >
+                                    <Col md={6} lg={6} xl={6} xxl={6} >
                                     <h4>Project 1</h4>
                                     <h4>Star Wars - Space Invaders</h4>
                                     <h4>4 days - Solo</h4>
@@ -37,14 +36,14 @@ function Projects() {
                                     </p>
                                         <Row className="text-center align-items-center justify-content-center">
                                             <Col className="d-flex justify-content-center mb-3 mb-sm-0">
-                                                <Button className="btn-change1" href='https://github.com/florentgiovannone'>
+                                                    <Button className="btn-change1" href='https://github.com/florentgiovannone/SEB-Project-1/blob/main/README.md'>
 
                                                         <p className='m-0'>ReadMe</p>
 
                                                 </Button>
                                             </Col>
                                             <Col className="d-flex justify-content-center mb-3 mb-sm-0">
-                                                <Button className="btn-change2"   href='https://github.com/florentgiovannone'>
+                                                    <Button className="btn-change2" href='https://starwarsinvaqder.netlify.app/'>
                                                     <Figure className='m-0'>
                                                         <p className='m-0'>   Website</p>
                                                     </Figure>
@@ -57,7 +56,7 @@ function Projects() {
                                 </Col>
                             </Row>
                                 <p><strong className='proj-title'>Tech Used</strong></p>
-                            <Row xxl={6} className='proj d-flex align-items-center justify-content-center'>
+                            <Row xxl={6} className=' justify-content-center'>
                                 <Col>
                                     <Html5Original size='40' />
                                     <p>HTML</p>
@@ -79,12 +78,12 @@ function Projects() {
             <Carousel.Item>
                 <Row className='carousel'>
                         <Carousel.Caption className=' p-4 m-0  d-flex justify-content-center align-items-center'>
-                        <Row>
+                                <Row className='justify-content-center'>
                                 <Row className='p-0 m-0 project justify-content-center align-items-center'>
                                     <Col md={6} lg={6} xl={6} xxl={6} className='d-flex align-items-center justify-content-center'>
                                     <Image className="img-fluid " src={ProjectTwo} fluid />
                                 </Col>
-                                    <Col className='proj' md={6} lg={6} xl={6} xxl={6} >
+                                    <Col  md={6} lg={6} xl={6} xxl={6} >
                                     <h4>Project 2</h4>
                                     <h4>Games of thrones</h4>
                                     <h4>3 days - pair</h4>
@@ -97,14 +96,14 @@ function Projects() {
                                     </p>
                                         <Row className="text-center align-items-center justify-content-center">
                                             <Col className="d-flex justify-content-center mb-3 mb-sm-0">
-                                                    <Button className="btn-change1" href='https://github.com/florentgiovannone'>
+                                                    <Button className="btn-change1" href='https://github.com/florentgiovannone/SEB-Project-2/blob/main/README.MD'>
                                                     <Figure  className='m-0'>
                                                         <p className='m-0'>ReadMe</p>
                                                     </Figure>
                                                 </Button>{' '}
                                             </Col>
                                             <Col className="d-flex justify-content-center mb-3 mb-sm-0">
-                                                    <Button className="btn-change2" href='https://github.com/florentgiovannone'>
+                                                    <Button className="btn-change2" href='https://majestic-pegasus-01f742.netlify.app/'>
                                                     <Figure className='m-0'>
                                                         <p className='m-0'>   Website</p>
                                                     </Figure>
@@ -114,7 +113,7 @@ function Projects() {
                                 </Col>
                             </Row>
                                 <p className='proj-title'><strong>Tech Used</strong></p>
-                                <Row className='proj'>
+                                <Row>
                                 <Col className="text-center">
                                     <Html5Original size='40' />
                                     <p className="text-center">HTML
@@ -141,10 +140,10 @@ function Projects() {
             <Carousel.Item>
                 <Row className='carousel '>
                         <Carousel.Caption className=' p-4 m-0  d-flex justify-content-center align-items-center'>
-                        <Row>
+                                <Row className=' justify-content-center'>
                                 <Row className=' p-0 m-0 justify-content-center align-items-center'>
 
-                                    <Col className='proj' md={6} lg={6} xl={6} xxl={6} >
+                                    <Col md={6} lg={6} xl={6} xxl={6} >
                                     <h4>Project 3</h4>
                                     <h4>Rouge wine cave</h4>
                                     <h4>5 days - pair</h4>
@@ -157,14 +156,14 @@ function Projects() {
                                     </p>
                                         <Row className="text-center align-items-center justify-content-center">
                                             <Col className="d-flex justify-content-center mb-3 mb-sm-0">
-                                                <Button className="btn-change1"   href='https://github.com/florentgiovannone'>
+                                                    <Button className="btn-change1" href='https://github.com/florentgiovannone/SEB-Project-3-front-end/blob/main/README.md'>
                                                     <Figure className='m-0'>
                                                         <p className='m-0'>ReadMe</p>
                                                     </Figure>
                                                 </Button>{' '}
                                             </Col>
                                             <Col className="d-flex justify-content-center mb-3 mb-sm-0">
-                                                <Button className="btn-change2"  href='https://github.com/florentgiovannone'>
+                                                    <Button className="btn-change2" href='https://rouge-wines.netlify.app/'>
                                                     <Figure className='m-0'>
                                                         <p className='m-0'>   Website</p>
                                                     </Figure>
@@ -177,7 +176,7 @@ function Projects() {
                                 </Col>
                             </Row>
                                 <p className='proj-title'><strong>Tech Used</strong></p>
-                                <Row className='proj' >
+                                <Row>
                                 <Col className="text-center">
                                     <Html5Original size='40' />
                                     <p className="text-center">HTML
@@ -210,12 +209,12 @@ function Projects() {
             <Carousel.Item>
                 <Row className='carousel'>
                     <Carousel.Caption className=' p-4 m-0 d-flex justify-content-center align-items-center'>
-                        <Row >
+                                <Row className=' justify-content-center'>
                                 <Row  className='p-0 m-0 project justify-content-center align-items-center'>
                                     <Col md={6} lg={6} xl={6} xxl={6} className='d-flex align-items-center justify-content-center'>
                                     <Image className="img-fluid " src={ProjectFour} fluid />
                                 </Col>
-                                    <Col className='proj' md={6} lg={6} xl={6} xxl={6} >
+                                    <Col md={6} lg={6} xl={6} xxl={6} >
                                     <h4>Project 4</h4>
                                     <h4>Codestream</h4>
                                     <h4>9 days - solo</h4>
@@ -227,14 +226,14 @@ function Projects() {
                                     </p>
                                         <Row className="text-center align-items-center justify-content-center">
                                             <Col className="d-flex justify-content-center mb-3 mb-sm-0">
-                                                <Button className="btn-change1"   href='https://github.com/florentgiovannone'>
+                                                    <Button className="btn-change1" href='https://github.com/florentgiovannone/SEB-Project-4-front-end/blob/main/ReadMe.md'>
                                                     <Figure className='m-0'>
                                                         <p className='m-0'>ReadMe</p>
                                                     </Figure>
                                                 </Button>{' '}
                                             </Col>
                                             <Col className="d-flex justify-content-center mb-3 mb-sm-0">
-                                                <Button className="btn-change2"   href='https://github.com/florentgiovannone'>
+                                                    <Button className="btn-change2" href='https://codestreamsocialmedia.netlify.app/'>
                                                     <Figure className='m-0'>
                                                         <p className='m-0'>   Website</p>
                                                     </Figure>
@@ -245,7 +244,7 @@ function Projects() {
 
                             </Row>
                                 <p className='proj-title'><strong>Tech Used</strong></p>
-                                <Row className='proj' xs={12} >
+                                <Row  xs={12} >
                                 <Col className="text-center">
                                     <Html5Original size='40' />
                                     <p className="text-center">HTML
@@ -281,7 +280,6 @@ function Projects() {
                     </Carousel.Caption>
                 </Row>
             </Carousel.Item>
-
         </Carousel>
             </Fade>
         </Container>

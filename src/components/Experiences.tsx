@@ -2,12 +2,11 @@ import { Col, Row, Image, Container, ListGroup } from 'react-bootstrap';
 import { Fade } from "react-awesome-reveal";
 function Experiences () {
     return (<>
-                <span className='anchor ' id='experiences'></span>
-        <Container className='exp hover-underline-animation-exp pt-5' fluid>
-            <Row >            
-                <h3 className=' text-center p-3'>Experience</h3>
-                </Row>
-                <Fade direction='right'delay={500} triggerOnce>
+        <span className='anchor' id='experiences'/>
+        <Container fluid className='exp ' >
+            <Fade direction='right' delay={500} triggerOnce>
+<h3 className=' text-center p-3'>Experience</h3>
+
             <Container className='container pb-3' fluid>
                 <Row>
                     <Col xs='auto' lg={6} >
@@ -104,6 +103,7 @@ function Experiences () {
             </Container>
             </Fade>
         </Container>
+
     </>
     );
 }
