@@ -37,14 +37,14 @@ function Projects() {
                                     </p>
                                         <Row className="text-center align-items-center justify-content-center">
                                             <Col className="d-flex justify-content-center mb-3 mb-sm-0">
-                                                <Button className="btn-change1" variant="outline-dark" href='https://github.com/florentgiovannone'>
-                                                    <Figure className='m-0'>
+                                                <Button className="btn-change1" href='https://github.com/florentgiovannone'>
+
                                                         <p className='m-0'>ReadMe</p>
-                                                    </Figure>
-                                                </Button>{' '}
+
+                                                </Button>
                                             </Col>
                                             <Col className="d-flex justify-content-center mb-3 mb-sm-0">
-                                                <Button className="btn-change2" variant="outline-light" href='https://github.com/florentgiovannone'>
+                                                <Button className="btn-change2"   href='https://github.com/florentgiovannone'>
                                                     <Figure className='m-0'>
                                                         <p className='m-0'>   Website</p>
                                                     </Figure>
@@ -97,14 +97,14 @@ function Projects() {
                                     </p>
                                         <Row className="text-center align-items-center justify-content-center">
                                             <Col className="d-flex justify-content-center mb-3 mb-sm-0">
-                                                <Button className="btn-change1" variant="outline-dark" href='https://github.com/florentgiovannone'>
-                                                    <Figure className='m-0'>
+                                                    <Button className="btn-change1" href='https://github.com/florentgiovannone'>
+                                                    <Figure  className='m-0'>
                                                         <p className='m-0'>ReadMe</p>
                                                     </Figure>
                                                 </Button>{' '}
                                             </Col>
                                             <Col className="d-flex justify-content-center mb-3 mb-sm-0">
-                                                <Button className="btn-change2" variant="outline-light" href='https://github.com/florentgiovannone'>
+                                                    <Button className="btn-change2" href='https://github.com/florentgiovannone'>
                                                     <Figure className='m-0'>
                                                         <p className='m-0'>   Website</p>
                                                     </Figure>
@@ -157,14 +157,14 @@ function Projects() {
                                     </p>
                                         <Row className="text-center align-items-center justify-content-center">
                                             <Col className="d-flex justify-content-center mb-3 mb-sm-0">
-                                                <Button className="btn-change1" variant="outline-dark" href='https://github.com/florentgiovannone'>
+                                                <Button className="btn-change1"   href='https://github.com/florentgiovannone'>
                                                     <Figure className='m-0'>
                                                         <p className='m-0'>ReadMe</p>
                                                     </Figure>
                                                 </Button>{' '}
                                             </Col>
                                             <Col className="d-flex justify-content-center mb-3 mb-sm-0">
-                                                <Button className="btn-change2" variant="outline-light" href='https://github.com/florentgiovannone'>
+                                                <Button className="btn-change2"  href='https://github.com/florentgiovannone'>
                                                     <Figure className='m-0'>
                                                         <p className='m-0'>   Website</p>
                                                     </Figure>
@@ -227,14 +227,14 @@ function Projects() {
                                     </p>
                                         <Row className="text-center align-items-center justify-content-center">
                                             <Col className="d-flex justify-content-center mb-3 mb-sm-0">
-                                                <Button className="btn-change1" variant="outline-dark" href='https://github.com/florentgiovannone'>
+                                                <Button className="btn-change1"   href='https://github.com/florentgiovannone'>
                                                     <Figure className='m-0'>
                                                         <p className='m-0'>ReadMe</p>
                                                     </Figure>
                                                 </Button>{' '}
                                             </Col>
                                             <Col className="d-flex justify-content-center mb-3 mb-sm-0">
-                                                <Button className="btn-change2" variant="outline-light" href='https://github.com/florentgiovannone'>
+                                                <Button className="btn-change2"   href='https://github.com/florentgiovannone'>
                                                     <Figure className='m-0'>
                                                         <p className='m-0'>   Website</p>
                                                     </Figure>

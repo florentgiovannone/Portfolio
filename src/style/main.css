@@ -1,6 +1,12 @@
+:root {
+    --dark_blue: #0E1C36;
+    --green: #3B7080;
+    --grey:  #E0E0E0;
+}
+
 html {
     height: 100%;
-    background-color: #31708f;
+    background-color: var(--green);
 }
 
 body {
@@ -15,38 +21,39 @@ h1 {
     filter: grayscale();
     box-shadow: inset 0 0 0 1000px rgba(59, 112, 128, 0.6);
     background-position: bottom;
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-    color: #E0E0E0;
+    color:  var(--grey);
 }
 .skills {
-    background-color: #3B7080 !important;
-        color: #E0E0E0 !important;
+    background-color: var(--green);
+    color: var(--dark_blue);
 }
 
 .proj {
-    background-color: #0E1C36 !important;
-    color: #E0E0E0 !important;
+    background-color:  var(--dark_blue) !important;
+    color:  var(--grey) !important;
 }
 
 .exp {
-    background-color: #E0E0E0 !important;
+    background-color:  var(--grey) !important;
 }
 
 .about {
-    background-color: #E0E0E0 !important;
-    color: #0E1C36 !important;
+    background-color:  var(--grey) !important;
+    color:  var(--dark_blue) !important;
 }
 
 .nav-link {
-    background-color: #E0E0E0 !important;
-    color: #0E1C36 !important;
+    background-color:  var(--grey) !important;
+    color:  var(--dark_blue) !important;
 
 }
 
 .nav-link.active {
-    background-color: #0E1C36 !important;
-    color: #E0E0E0 !important;
+    background-color:  var(--dark_blue) !important;
+    color:  var(--grey) !important;
 }
 
 .tabs {
@@ -60,20 +67,21 @@ h1 {
 }
 
 .navy {
-    background-color: #0E1C36 !important;
-    color: #E0E0E0 !important;
+    background-color:  var(--dark_blue) !important;
+    color:  var(--grey) !important;
+    
 }
 
 .navbar.sticky-top {
 
-    box-shadow: 0 2px 4px #3B7080;
-}
+    box-shadow: 0 2px 4px  var(--green);
+} 
 
 hr {
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
-    border-top: 2px solid #0E1C36;
+    border-top: 2px solid  var(--dark_blue);
     width: 50%;
     margin: auto;
 }
@@ -189,64 +197,64 @@ li {
 .carousel-control-next {
     position: absolute;
     bottom: 0;
-    /* Position at the bottom */
     width: auto;
-    /* Adjust width as needed */
     margin-bottom: 0;
-    /* Remove any default margin */
-    /* Additional styling as needed */
 }
 
 .btn-change1 {
     height: 40px;
     width: 120px;
     margin: 20px;
-    float: left;
-    border: 1px solid #000435 !important;
-    color: #000435;
-    box-shadow: 0 0 1px #ccc;
+    border: 1px solid  var(--green) !important;
+    color: var(--dark_blue);
+    box-shadow: 0 0 1px  var(--green);
     transition-duration: 0.5s;
     -webkit-transition-duration: 0.5s;
-    -webkit-box-shadow: 0px 0px 0 0 #000435 inset, 0px 0px 0 0 #31708f inset;
+    -webkit-box-shadow: 0px 0px 0 0  var(--green) inset, 0px 0px 0 0  var(--green) inset;
+    background-color:  var(--green);
+}
+
+.btn-change1:hover {
+    border: 1px solid var(--grey) !important;
+    color:  var(--grey) !important;
+    background-color: var(--green);
+    box-shadow: 50px 0px 0 0  var(--dark_blue) inset, -50px 0px 0 0  var(--dark_blue) inset;
+    -webkit-box-shadow: 60px 0px 0 0  var(--dark_blue) inset, -60px 0px 0 0  var(--dark_blue) inset;
 }
 
 .btn-change2 {
     height: 40px;
     width: 120px;
     margin: 20px;
-    float: left;
-    border: 1px solid #000435!important;
-    color: #000435;
-    box-shadow: 0 0 1px #ccc;
+    border: 1px solid  var(--green)!important;
+    color:  var(--dark_blue);
+    box-shadow: 0 0 1px  var(--green);
     transition-duration: 0.5s;
     -webkit-transition-duration: 0.5s;
-    -webkit-box-shadow: 0px 0px 0 0 #E0E0E0 inset, 0px 0px 0 0 #E0E0E0 inset;
-}
-
-.btn-change1:hover {
-    border: 1px solid #000435 !important;
-    box-shadow: 50px 0px 0 0 #000435 inset, -50px 0px 0 0 #000435 inset;
-    -webkit-box-shadow: 50px 0px 0 0 #000435 inset, -50px 0px 0 0 #000435 inset;
+    -webkit-box-shadow: 0px 0px 0 0  var(--green) inset, 0px 0px 0 0  var(--green) inset;
+    background-color:  var(--green);
 }
 
 .btn-change2:hover {
-    border: 1px solid #E0E0E0 !important;
-    box-shadow: 50px 0px 0 0 #E0E0E0 inset, -50px 0px 0 0 #E0E0E0 inset;
-    -webkit-box-shadow: 50px 0px 0 0 #E0E0E0 inset, -50px 0px 0 0 #E0E0E0 inset;
-    color: #000435;
+    border: 1px solid  var(--dark_blue) !important;
+    color:  var(--dark_blue) !important;
+    background-color:  var(--green);
+    box-shadow: 50px 0px 0 0  var(--grey) inset, -50px 0px 0 0  var(--grey) inset;
+    -webkit-box-shadow: 60px 0px 0 0  var(--grey) inset, -60px 0px 0 0  var(--grey) inset;
 }
+
 .nav-link {
-    color: #E0E0E0;
+    color:  var(--grey);
     border: 0 !important
 }
 
 .nav-link:hover {
-    color: #31708f;
+    color:  var(--green);
     border: 0 !important
 }
 
 .nav-tabs .nav-link.active {
-    background-color: #31708f;
+    background-color:  var(--green);
 }
 
 .logo-hero {
