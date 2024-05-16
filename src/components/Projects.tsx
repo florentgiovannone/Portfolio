@@ -36,14 +36,14 @@ function Projects() {
                                     </p>
                                         <Row className="text-center align-items-center justify-content-center">
                                             <Col className="d-flex justify-content-center mb-3 mb-sm-0">
-                                                    <Button className="btn-change1" href='https://github.com/florentgiovannone/SEB-Project-1/blob/main/README.md'>
+                                                    <Button className="btn-change1" target="_blank" href='https://github.com/florentgiovannone/SEB-Project-1/blob/main/README.md'>
 
                                                         <p className='m-0'>ReadMe</p>
 
                                                 </Button>
                                             </Col>
                                             <Col className="d-flex justify-content-center mb-3 mb-sm-0">
-                                                    <Button className="btn-change2" href='https://starwarsinvaqder.netlify.app/'>
+                                                    <Button className="btn-change2" target="_blank" href='https://starwarsinvaqder.netlify.app/'>
                                                     <Figure className='m-0'>
                                                         <p className='m-0'>   Website</p>
                                                     </Figure>
@@ -96,14 +96,14 @@ function Projects() {
                                     </p>
                                         <Row className="text-center align-items-center justify-content-center">
                                             <Col className="d-flex justify-content-center mb-3 mb-sm-0">
-                                                    <Button className="btn-change1" href='https://github.com/florentgiovannone/SEB-Project-2/blob/main/README.MD'>
+                                                    <Button className="btn-change1" target="_blank" href='https://github.com/florentgiovannone/SEB-Project-2/blob/main/README.MD'>
                                                     <Figure  className='m-0'>
                                                         <p className='m-0'>ReadMe</p>
                                                     </Figure>
                                                 </Button>{' '}
                                             </Col>
                                             <Col className="d-flex justify-content-center mb-3 mb-sm-0">
-                                                    <Button className="btn-change2" href='https://majestic-pegasus-01f742.netlify.app/'>
+                                                    <Button className="btn-change2" target="_blank" href='https://majestic-pegasus-01f742.netlify.app/'>
                                                     <Figure className='m-0'>
                                                         <p className='m-0'>   Website</p>
                                                     </Figure>
@@ -156,14 +156,14 @@ function Projects() {
                                     </p>
                                         <Row className="text-center align-items-center justify-content-center">
                                             <Col className="d-flex justify-content-center mb-3 mb-sm-0">
-                                                    <Button className="btn-change1" href='https://github.com/florentgiovannone/SEB-Project-3-front-end/blob/main/README.md'>
+                                                    <Button className="btn-change1" target="_blank" href='https://github.com/florentgiovannone/SEB-Project-3-front-end/blob/main/README.md'>
                                                     <Figure className='m-0'>
                                                         <p className='m-0'>ReadMe</p>
                                                     </Figure>
                                                 </Button>{' '}
                                             </Col>
                                             <Col className="d-flex justify-content-center mb-3 mb-sm-0">
-                                                    <Button className="btn-change2" href='https://rouge-wines.netlify.app/'>
+                                                    <Button className="btn-change2" target="_blank" href='https://rouge-wines.netlify.app/'>
                                                     <Figure className='m-0'>
                                                         <p className='m-0'>   Website</p>
                                                     </Figure>
@@ -226,14 +226,14 @@ function Projects() {
                                     </p>
                                         <Row className="text-center align-items-center justify-content-center">
                                             <Col className="d-flex justify-content-center mb-3 mb-sm-0">
-                                                    <Button className="btn-change1" href='https://github.com/florentgiovannone/SEB-Project-4-front-end/blob/main/ReadMe.md'>
+                                                    <Button className="btn-change1" target="_blank" href='https://github.com/florentgiovannone/SEB-Project-4-front-end/blob/main/ReadMe.md'>
                                                     <Figure className='m-0'>
                                                         <p className='m-0'>ReadMe</p>
                                                     </Figure>
                                                 </Button>{' '}
                                             </Col>
                                             <Col className="d-flex justify-content-center mb-3 mb-sm-0">
-                                                    <Button className="btn-change2" href='https://codestreamsocialmedia.netlify.app/'>
+                                                    <Button className="btn-change2" target="_blank" href='https://codestreamsocialmedia.netlify.app/'>
                                                     <Figure className='m-0'>
                                                         <p className='m-0'>   Website</p>
                                                     </Figure>

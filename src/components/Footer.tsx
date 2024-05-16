@@ -1,7 +1,8 @@
-import { Container, Row, Figure, Col, Button } from "react-bootstrap";
+import { Container, Row, Figure, Col, Button, Image } from "react-bootstrap";
 import Profile from "../assets/images/Profile.png"
 import { GithubactionsPlain, LinkedinPlainWordmark } from 'devicons-react';
 import { EnvelopeAt, Github } from 'react-bootstrap-icons';
+import Logo2 from "../assets/images/Logo2.png"
 
 function Footer() {
   return (
@@ -12,13 +13,13 @@ function Footer() {
         </Row>
         <Row lg={6} className="buttons text-center justify-content-center align-items-center">
           <Col>
-            <Button variant="" href='https://github.com/florentgiovannone'>
+            <Button variant="" target="_blank" href='https://github.com/florentgiovannone'>
               <Figure>
                 <Github color='#E0E0E0' size='50' />
               </Figure></Button>{' '}
           </Col>
           <Col>
-            <Button variant="" href='https://www.linkedin.com/in/florent-giovannone/'>
+            <Button variant="" target="_blank" href='https://www.linkedin.com/in/florent-giovannone/'>
               <Figure>
                 <LinkedinPlainWordmark color='#E0E0E0' size='90' />
               </Figure>
@@ -31,8 +32,8 @@ function Footer() {
               </Figure></Button>{' '}
           </Col>
         </Row>
-        <Row >
-            <p className="text-center" >&copy; Florent Givannone</p>
+        <Row className="justify-content-center">
+          <Image className=' m-0 p-0'src={Logo2} fluid style={{height: 100, width: 100}}/>
         </Row>
       </Container>
     </>

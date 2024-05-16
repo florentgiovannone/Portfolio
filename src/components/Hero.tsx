@@ -4,7 +4,8 @@ import { EnvelopeAt, Github } from 'react-bootstrap-icons';
 // import Hero from "../assets/images/Hero.jpeg"
 
 function Hero () {
-    return (
+    return <>
+                <span className='anchor' id='hero'/>
         <Container fluid className=' hero d-flex align-items-end'>
             <Container fluid>
                 <Row xs={8} xxl={8}>
@@ -20,14 +21,14 @@ function Hero () {
 
                 <Row xs={6} md={2} xxl={2}>
                     <Col className='logo-hero text-center' xs={3} md={2} xxl={1}>
-                        <Button  variant="" href='https://github.com/florentgiovannone'>
+                        <Button variant="" target="_blank" href='https://github.com/florentgiovannone'>
                             <Figure >
                                 <Github color='#E0E0E0' size='50' />
                             </Figure>
                         </Button>{' '}
                     </Col>
                     <Col className='text-center' xs={3} md={2} xxl={1}>
-                        <Button variant="" href='https://www.linkedin.com/in/florent-giovannone/'>
+                        <Button variant="" target="_blank" href='https://www.linkedin.com/in/florent-giovannone/'>
                             <Figure>
                                 <LinkedinPlain color='#E0E0E0' size='50' />
                             </Figure>
@@ -37,6 +38,6 @@ function Hero () {
 
             </Container>
         </Container>
-    );
+    </>;
 }
 export default Hero;
