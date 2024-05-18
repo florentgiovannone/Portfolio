@@ -36,7 +36,7 @@ function Experiences () {
             <Container className='container pb-3'>
                 <Row>
                     <Col xs='auto' lg={6} >
-                        <h5 className="d-flex justify-content-start">Restauratn Fine Dining Manager</h5>
+                        <h5 className="d-flex justify-content-start">Restaurant Fine Dining Manager</h5>
                         <h5 className="d-flex justify-content-start">ISS</h5>
                     </Col>
                     <Col xs='auto' lg={6}>
