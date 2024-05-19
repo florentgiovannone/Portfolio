@@ -26,7 +26,6 @@ function Projects() {
                                 <Row className='p-0 m-0 justify-content-center align-items-center'>
 
                                     <Col md={6} lg={6} xl={6} xxl={6} >
-                                    <h4>Project 1</h4>
                                     <h4>Star Wars - Space Invaders</h4>
                                     <h4>4 days - Solo</h4>
                                     <p>
@@ -55,7 +54,7 @@ function Projects() {
                                     <Image className="img-fluid " src={ProjectOne} fluid />
                                 </Col>
                             </Row>
-                                <p><strong className='proj-title'>Tech Used</strong></p>
+                                    <p className='proj-title pt-5'><strong>Tech Used</strong></p>
                             <Row xxl={6} className=' justify-content-center'>
                                 <Col>
                                     <Html5Original size='40' />
@@ -84,7 +83,6 @@ function Projects() {
                                     <Image className="img-fluid " src={ProjectTwo} fluid />
                                 </Col>
                                     <Col  md={6} lg={6} xl={6} xxl={6} >
-                                    <h4>Project 2</h4>
                                     <h4>Games of thrones</h4>
                                     <h4>3 days - pair</h4>
                                     <p>
@@ -112,7 +110,7 @@ function Projects() {
                                         </Row>
                                 </Col>
                             </Row>
-                                <p className='proj-title'><strong>Tech Used</strong></p>
+                                <p className='proj-title pt-5'><strong>Tech Used</strong></p>
                                 <Row>
                                 <Col className="text-center">
                                     <Html5Original size='40' />
@@ -144,7 +142,6 @@ function Projects() {
                                 <Row className=' p-0 m-0 justify-content-center align-items-center'>
 
                                     <Col md={6} lg={6} xl={6} xxl={6} >
-                                    <h4>Project 3</h4>
                                     <h4>Rouge wine cave</h4>
                                     <h4>5 days - pair</h4>
                                     <p>
@@ -175,7 +172,7 @@ function Projects() {
                                     <Image className="img-fluid " src={ProjectThree} fluid />
                                 </Col>
                             </Row>
-                                <p className='proj-title'><strong>Tech Used</strong></p>
+                                <p className='proj-title pt-5'><strong>Tech Used</strong></p>
                                 <Row>
                                 <Col className="text-center">
                                     <Html5Original size='40' />
@@ -215,7 +212,6 @@ function Projects() {
                                     <Image className="img-fluid " src={ProjectFour} fluid />
                                 </Col>
                                     <Col md={6} lg={6} xl={6} xxl={6} >
-                                    <h4>Project 4</h4>
                                     <h4>Codestream</h4>
                                     <h4>9 days - solo</h4>
                                         <p>On the last project, I decided to go solo to showcase the skills learned during the past 3 months. I developed a Flask Python backend connected to a Postgress SQL database. For the frontend I decided to go with React.
@@ -243,7 +239,7 @@ function Projects() {
                                 </Col>
 
                             </Row>
-                                <p className='proj-title'><strong>Tech Used</strong></p>
+                                <p className='proj-title pt-5'><strong>Tech Used</strong></p>
                                 <Row  xs={12} >
                                 <Col className="text-center">
                                     <Html5Original size='40' />

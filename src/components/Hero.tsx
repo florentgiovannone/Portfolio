@@ -9,13 +9,14 @@ function Hero () {
         <Container fluid className=' hero d-flex align-items-end'>
             <Container fluid>
                 <Row xs={8} xxl={8}>
-                    <Col>
-                        <h1>Hi. I'm Flo.</h1>
+                    <Col className='pb-2'>
+                        <h1 className='p-0 m-0 '>Hi there.</h1>
+                        <h1>I'm Flo.</h1>
                     </Col>
                 </Row>
                 <Row>
                     <Col xs={8} xxl={8}>
-                        <h2 >A Junior Software engineer, with a passion for problem-solving and a commitment to continuous learning</h2>
+                        <h2 >A Junior Software Engineer, with a passion for problem-solving and a commitment to continuous learning.</h2>
                     </Col>
                 </Row>
 

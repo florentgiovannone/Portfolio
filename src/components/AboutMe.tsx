@@ -10,7 +10,8 @@ function AboutMe () {
             defaultActiveKey="Profile"
                 id="justify-tab-example"
                 className=" tabs mb-3"
-            justify
+            fill justify
+            
         >
                 <Tab className="tab text-center" eventKey="Profile" title="Profile">
                     <p>I am a passionate, driven, and collaborative professional with 17 years of experience across 3 different countries (France, Peru & UK).</p>

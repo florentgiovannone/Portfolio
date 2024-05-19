@@ -48,7 +48,6 @@ h1 {
 .nav-link {
     background-color:  var(--grey) !important;
     color:  var(--dark_blue) !important;
-
 }
 
 .nav-link.active {
@@ -132,19 +131,45 @@ hr {
         margin: 0 auto;
         /* Center the carousel horizontally */
     }
-        .project {
-            position: flex;
-            flex-direction: column-reverse;
-        }
-    
-        .experiences {
-            text-align: center !important;
-            margin: auto !important;
-        }
+    .project {
+        position: flex;
+        flex-direction: column-reverse;
+    }
+
+    .experiences {
+        text-align: center !important;
+        margin: auto !important;
+    }
+} 
+@media (max-width: 786px) {
+    .nav-link {
+        /* background-color: var(--green) !important; */
+        color: var(--dark_blue) !important;
+        border: 1px var(--dark_blue) solid !important;
+    }
+    .navy {
+        background-color: var(--dark_blue) !important;
+        color: var(--grey) !important;
+    }
 } 
 
 
 @media (min-width: 1400px) {
+    .carousel {
+        height: 900px;
+        /* Adjust the width as needed */
+        margin: 0 auto;
+        /* Center the carousel horizontally */
+    }
+    .carousel-about {
+        height: 400px;
+        /* Adjust the width as needed */
+        margin: 0 auto;
+        /* Center the carousel horizontally */
+    }
+
+}
+@media (min-width: 991) {
     .carousel {
         height: 900px;
         /* Adjust the width as needed */
@@ -249,53 +274,17 @@ li {
 
 .nav-link {
     color:  var(--grey);
-    border: 0 !important
+    /* border: 0 !important */
 }
 
 .nav-link:hover {
     color:  var(--green);
-    border: 0 !important
+    /* border: 0 !important */
 }
 
 .nav-tabs .nav-link.active {
     background-color:  var(--green);
 }
-
-
-
-
-/* @property --offset {
-    syntax: '<length>';
-    inherits: false;
-    initial-value: 0.5;
-}
-
-
-h3 {
-    color: inherit;
-    text-underline-offset: var(--offset, 0.2em);
-    text-decoration: underline 0.10em;
-    transition: --offset 400ms, text-decoration-color 400ms;
-}
-
-h3:hover,
-h3:focus {
-    --offset: 0.8em;
-    text-decoration-color: orange;
-}
-
-@supports not (background: paint(something)) {
-    h3 {
-        transition: text-underline-offset 400ms, text-decoration-color 400ms;
-    }
-
-    h3:hover,
-    h3:focus {
-        text-underline-offset: 0.4em;
-    }
-} */
-
-
 
 .nav-link {
     position: relative;
@@ -322,7 +311,7 @@ h3:focus {
 }
 
 .nav-link:hover::before {
-    transform: scaleX(0.5);
+    transform: scaleX(1);
 }
 
 .nav-link.active {
