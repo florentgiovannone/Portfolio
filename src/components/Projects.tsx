@@ -83,7 +83,7 @@ function Projects() {
                                     <Image className="img-fluid " src={ProjectTwo} fluid />
                                 </Col>
                                     <Col  md={6} lg={6} xl={6} xxl={6} >
-                                    <h4>Games of thrones</h4>
+                                    <h4>Game of thrones</h4>
                                     <h4>3 days - pair</h4>
                                     <p>
                                             On the second project I also worked as a pair. We decided to work with a game of thrones API. We decided to display everything we learned in class using React and Bulma on CSS.

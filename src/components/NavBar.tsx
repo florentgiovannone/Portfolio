@@ -22,7 +22,7 @@ function NavBar() {
                         <Nav.Link className="navy" href="/#aboutMe">About me</Nav.Link>
                         <Nav.Link className="navy" href="/#skills">Skills</Nav.Link>
                         <Nav.Link className="navy" href="/#projects">Projects</Nav.Link>
-                        <Nav.Link className="navy" href="/#experiences">Experiences</Nav.Link>
+                        <Nav.Link className="navy" href="/#experiences">Experience</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

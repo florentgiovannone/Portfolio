@@ -5,7 +5,7 @@ function Experiences () {
         <span className='anchor' id='experiences'/>
         <Container fluid className='exp ' >
             <Fade direction='right' delay={500} triggerOnce>
-<h3 className=' text-center p-3'>Experiences</h3>
+<h3 className=' text-center p-3'>Experience</h3>
 
             <Container className='container pb-3' fluid>
                 <Row>

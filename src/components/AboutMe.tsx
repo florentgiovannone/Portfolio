@@ -20,7 +20,7 @@ function AboutMe () {
                 </Tab>
                     <Tab className="tab text-center" eventKey="Education" title="Education">
                     <p>January   - April 2024 - London, UK</p>
-                    <p>General assembly | Software engineering Bootcamp</p>
+                    <p>General Assembly | Software engineering Bootcamp</p>
                     <hr className='mb-3' />
                     <p>July 2019 - London, UK</p>
                     <p>Wine Spirit Education trust | Level 3</p>
@@ -33,8 +33,8 @@ function AboutMe () {
                 </Tab>
                     <Tab className="tab text-center" eventKey="Languages" title="Languages">
                     <p>🇬🇧 English - (Fluent)</p>
-                    <p>🇫🇷 French - (Fluent)</p>
-                    <p>🇪🇸 Spanish - (Native)</p>
+                    <p>🇫🇷 French - (Native)</p>
+                    <p>🇪🇸 Spanish - (Fluent)</p>
                 </Tab>
 
                 <Tab className="tab text-center" eventKey="Interest" title="Interest">
