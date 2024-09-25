@@ -17,8 +17,8 @@ h1 {
 }
 .hero {
     height: 91vh !important;
-    background-image: url("../assets/images/Hero2.jpeg");
-    filter: grayscale();
+    background-image: url("../assets/images/Home.gif");
+    filter: var(--dark_blue);
     box-shadow: inset 0 0 0 1000px rgba(59, 112, 128, 0.7);
     background-position: bottom;
     background-position: left;
