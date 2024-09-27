@@ -13,10 +13,10 @@ function AboutMe () {
             fill justify
             
         >
-                <Tab className="tab text-center" eventKey="Profile" title="Profile">
-                    <p>I am a passionate, driven, and collaborative professional with 17 years of experience across 3 different countries (France, Peru & UK).</p>
-                    <p>Throughout my career, I have navigated teams of varying sizes and backgrounds, honing my skills as both a team player and leader. In my previous career in hospitality, I excelled in crafting unforgettable guest experiences through meticulous attention to detail, ensuring every aspect of their interaction was seamlessly orchestrated and memorable.</p>
-                    <p>Entering the field of software engineering with a passion for problem-solving and a commitment to continuous learning, I'm ready to contribute fresh perspectives and diligent work ethic to develop impactful solutions and grow alongside dynamic tech teams.</p>
+                <Tab className="tab " eventKey="Profile" title="Profile">
+                    <p>As a recent bootcamp graduate specializing in React and Python, I am passionate about developing dynamic, user-friendly web applications. My expertise lies in building modern, responsive interfaces using React, while leveraging Python for backend services and data processing.</p>
+                    <p>Through intensive, hands-on training and real-world projects, I have developed a deep understanding of full-stack development, working with both front-end and back-end technologies. I enjoy solving complex problems, writing clean code, and continuously improving my skill set to stay current in the ever-evolving tech industry.</p>
+                    <p>I am excited to collaborate with forward-thinking teams and contribute to innovative projects that deliver impactful solutions.</p>
                 </Tab>
                     <Tab className="tab text-center" eventKey="Education" title="Education">
                     <p>January   - April 2024 - London, UK</p>

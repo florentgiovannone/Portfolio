@@ -16,7 +16,8 @@ function Hero () {
                 </Row>
                 <Row>
                     <Col xs={8} xxl={8}>
-                        <h2 >A Junior Software Engineer, with a passion for problem-solving and a commitment to continuous learning.</h2>
+                        <h2 >A Junior Software Engineer with a passion for problem-solving, </h2>
+                        <h2 >specializing in React and Python, and committed to continuous learning and growth in the ever-evolving tech landscape.</h2>
                     </Col>
                 </Row>
 
