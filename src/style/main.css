@@ -103,16 +103,20 @@ hr {
 
 @media (max-width: 1200px) {
     .carousel {
-        height: 700px;
+        height: 1400px;
         /* Adjust the width as needed */
         margin: 0 auto;
         /* Center the carousel horizontally */
+        
     }
     .carousel-about {
         height: 700px;
         /* Adjust the width as needed */
         margin: 0 auto;
         /* Center the carousel horizontally */
+    }
+    .project {
+        flex-direction: column-reverse;
     }
         }
     
@@ -124,6 +128,7 @@ hr {
         /* Adjust the width as needed */
         margin: 0 auto;
         /* Center the carousel horizontally */
+        flex-direction: column ;
     }
     .carousel-about {
         height: 1100px;
@@ -132,15 +137,14 @@ hr {
         /* Center the carousel horizontally */
     }
     .project {
-        position: flex;
         flex-direction: column-reverse;
     }
-
     .experiences {
         text-align: center !important;
         margin: auto !important;
     }
 } 
+
 @media (max-width: 786px) {
     .nav-link {
         /* background-color: var(--green) !important; */
@@ -427,10 +431,3 @@ li {
     padding-top: 70px;
     margin-top: -70px;
 }
-
-/* h1, h2 {
-background: #25CC0F;
-    background: linear-gradient(to bottom right, #25CC0F 0%, #9E3212 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-} */
