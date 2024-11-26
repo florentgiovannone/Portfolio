@@ -7,7 +7,7 @@ import {
     ReactbootstrapOriginal, MongodbPlain, MongooseOriginal, InsomniaPlain,
     PostgresqlOriginal, NetlifyOriginal, HerokuOriginal, GitOriginal,
     GithubOriginal, SqlalchemyOriginal,
-    SassOriginal, TypescriptOriginal
+    SassOriginal, TypescriptOriginal, PytestOriginalWordmark
 } from 'devicons-react';
 import { Fade } from "react-awesome-reveal";
 function Skills() {
@@ -17,7 +17,7 @@ function Skills() {
             <Fade direction='up' cascade triggerOnce>
                 <h3 className='   text-center p-3 '> Skills</h3>
                 <Container className='pb-5 pt-3'>
-                    <Row className='justify-content-center' xs='auto' lg={6} >
+                    <Row className='justify-content-center pb-5' xs='auto' lg={6} >
                         <Col xs={4} sm={4} md={2} lg={2} xl={2} xxl={2} className="text-center" >
                             <JavascriptOriginal size='50' />
                             <Card.Body>
@@ -63,7 +63,7 @@ function Skills() {
                             </Card.Body>
                         </Col>
                     </Row>
-                    <Row xs='auto' lg={6} className='justify-content-center'>
+                    <Row xs='auto' lg={6} className='justify-content-center pb-5'>
                         <Col xs={4} sm={4} md={2} lg={2} xl={2} xxl={2}  className="   text-center" >
                             <SqlalchemyOriginal size='50' />
                             <Card.Body>
@@ -99,6 +99,16 @@ function Skills() {
                                 </Card.Text>
                             </Card.Body>
                         </Col>
+
+                        <Col xs={4} sm={4} md={2} lg={2} xl={2} xxl={2} className="   text-center" >
+                            <PytestOriginalWordmark size='50' />
+                            <Card.Body>
+                                <Card.Text className="text-center">Pytest
+                                </Card.Text>
+                            </Card.Body>
+                        </Col>
+                    </Row>
+                    <Row xs='auto' lg={6} className='justify-content-center'>
                         <Col xs={4} sm={4} md={2} lg={2} xl={2} xxl={2} className="   text-center" >
                             <JestPlain size='50' />
                             <Card.Body>
@@ -106,8 +116,6 @@ function Skills() {
                                 </Card.Text>
                             </Card.Body>
                         </Col>
-                    </Row>
-                    <Row xs='auto' lg={6} className='justify-content-center'>
                         <Col xs={4} sm={4} md={2} lg={2} xl={2} xxl={2} className="   text-center" >
                             <BulmaPlain size='50' />
                             <Card.Body>

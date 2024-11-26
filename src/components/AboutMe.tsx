@@ -33,7 +33,12 @@ function AboutMe() {
                                     className="d-flex flex-column justify-content-start align-items-lg-end"
                                 >
                                     <p>
-                                        As a recent bootcamp graduate specializing in React and Python, I am
+                                        I am a Software engineer with expertise in <strong>Python, React, TypeScript, JavaScript. </strong>
+                                        Proficiency in design tools like <strong>Figma</strong> and experience with both <strong>SQL (PERN)</strong> and <strong>NoSQL (MERN)</strong> technology stacks.
+                                        I also have knowledge in <strong>CSS frameworks such as Bulma, Bootstrap, and Tailwind.</strong>
+                                    </p>
+                                    <p>
+                                        As a recent bootcamp graduate specializing in <strong>React and Python</strong>, I am
                                         passionate about developing dynamic, user-friendly web applications. My
                                         expertise lies in building modern, responsive interfaces using React,
                                         while leveraging Python for backend services and data processing.
