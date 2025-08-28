@@ -9,17 +9,17 @@ import AboutMe from "./components/AboutMe";
 import Footer from "./components/Footer";
 
 function App() {
-  return(
-<>
-    <NavBar />
-    <Hero/>
-    <AboutMe />
-    <Skills/>
-    <Projects/>
-    <Experiences/>
-    <Footer/>
+  return (
+    <>
+      <NavBar />
+      <Hero />
+      <AboutMe />
+      <Skills />
+      <Projects />
+      <Experiences />
+      <Footer />
     </>
-)
+  )
 }
 
 export default App

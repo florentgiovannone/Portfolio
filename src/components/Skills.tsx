@@ -57,7 +57,7 @@ function Skills() {
                                 </Card.Text>
                             </Card.Body>
                         </Col>
-                                                <Col xs={4} sm={4} md={2} lg={2} xl={2} xxl={2} className="   text-center" >
+                        <Col xs={4} sm={4} md={2} lg={2} xl={2} xxl={2} className="   text-center" >
                             <PostgresqlOriginal size='50' />
                             <Card.Body>
                                 <Card.Text className="text-center">PostgreSQL
@@ -66,7 +66,7 @@ function Skills() {
                         </Col>
                     </Row>
                     <Row xs='auto' lg={6} className='justify-content-center pb-5'>
-                        <Col xs={4} sm={4} md={2} lg={2} xl={2} xxl={2}  className="   text-center" >
+                        <Col xs={4} sm={4} md={2} lg={2} xl={2} xxl={2} className="   text-center" >
                             <SqlalchemyOriginal size='50' />
                             <Card.Body>
                                 <Card.Text className="text-center">SQLAlchemy

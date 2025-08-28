@@ -16,22 +16,23 @@ function AboutMe() {
                         className=" tabs mb-3"
                         fill justify
                     >
-                        <Tab  className="tab" eventKey="Profile" title="Profile">
-                            <Row className="align-items-center justify-content-between">
+                        <Tab className="tab" eventKey="Profile" title="Profile">
+                            <Row className="align-items-center">
                                 <Col
-                                    md={5}
-                                    className="pr-40 d-flex justify-content-start justify-content-center mb-4 mb-lg-0"
+                                    xs={12} md={5}
+                                    className="d-flex justify-content-center mb-4 mb-md-0 order-2 order-md-1"
                                 >
                                     <Image
-                                        className="img-fluid m-10"
+                                        className="img-fluid"
                                         roundedCircle={true}
                                         src={Flo}
                                         alt="Profile Picture"
+                                        style={{ maxWidth: '300px' }}
                                     />
                                 </Col>
                                 <Col
-                                    md={7}
-                                    className="d-flex flex-column justify-content-start align-items-lg-end"
+                                    xs={12} md={7}
+                                    className="d-flex flex-column justify-content-start order-1 order-md-2"
                                 >
                                     <p>
                                         I am a Software engineer with expertise in <strong>Python, React, TypeScript, JavaScript. </strong>

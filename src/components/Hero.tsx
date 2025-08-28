@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, Figure, Button, Image} from 'react-bootstrap';
+import { Container, Row, Col, Figure, Button, Image } from 'react-bootstrap';
 import { LinkedinPlain, ReactOriginal, PythonPlain } from 'devicons-react';
 import { Github } from 'react-bootstrap-icons';
 
@@ -9,7 +9,7 @@ function Hero() {
     return <>
         <span className='anchor' id='hero' />
         <Container fluid className=' hero d-flex align-items-end'>
-            
+
             <Container fluid>
                 <Row xs={8} xxl={8}>
                     <Col className='pb-2'>

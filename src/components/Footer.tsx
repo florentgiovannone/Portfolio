@@ -34,7 +34,7 @@ function Footer() {
           </Col>
         </Row>
         <Row className="justify-content-center">
-          <Image className=' m-0 p-0'src={Logo2} fluid style={{height: 100, width: 100}}/>
+          <Image className=' m-0 p-0' src={Logo2} fluid style={{ height: 100, width: 100 }} />
         </Row>
       </Container>
     </>
