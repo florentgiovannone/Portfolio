@@ -1,3 +1,4 @@
+import React from 'react';
 import { Container, Row, Figure, Col, Button, Image } from "react-bootstrap";
 import Profile from "../assets/images/Profile.png"
 import { GithubactionsPlain, LinkedinPlainWordmark } from 'devicons-react';

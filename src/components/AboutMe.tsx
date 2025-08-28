@@ -1,3 +1,4 @@
+import React from 'react';
 import { Col, Row, Image, Container, Figure, Button, Tab, Tabs } from 'react-bootstrap';
 import { Slide, Fade } from "react-awesome-reveal";
 import Flo from "../assets/images/Flo.jpeg"

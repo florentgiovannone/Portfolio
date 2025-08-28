@@ -1,3 +1,4 @@
+import React from 'react';
 import { Col, Row, Image, Container, ListGroup } from 'react-bootstrap';
 import { Fade } from "react-awesome-reveal";
 function Experiences() {
@@ -17,7 +18,7 @@ function Experiences() {
                         </Col>
                     </Row>
                     <Row>
-                        <p className='mb-1'>I gained more experience in full-stack development and product ownership/management.</p>
+                        <p className='mb-1'>I gained more experience in full-stlack development and product ownership/management.</p>
                         <p className='m-0'><strong>FRONTEND: React, Typescript, JavaScript, Nuxt.</strong></p>
                         <p><strong>BACKEND: Python, couchbase. </strong></p>
                         <ul>

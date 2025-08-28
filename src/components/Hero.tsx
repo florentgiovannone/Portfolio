@@ -1,3 +1,4 @@
+import React from 'react';
 import { Container, Row, Col, Figure, Button, Image} from 'react-bootstrap';
 import { LinkedinPlain, ReactOriginal, PythonPlain } from 'devicons-react';
 import { Github } from 'react-bootstrap-icons';

@@ -1,3 +1,4 @@
+import React from 'react';
 import { Col, Row, Image, Container, Carousel, Button, Figure, } from 'react-bootstrap';
 import HeroImage from "../assets/images/Hero.png";
 import ProjectOne from "../assets/images/project_1.png"
