@@ -87,7 +87,7 @@ hr {
 
 @media (max-width: 1400px) {
     .carousel {
-        height: 750px;
+        height: 600px;
         /* Adjust the width as needed */
         margin: 0 auto;
         /* Center the carousel horizontally */
@@ -103,7 +103,7 @@ hr {
 
 @media (max-width: 1200px) {
     .carousel {
-        height: 1400px;
+        height: 1100px;
         /* Adjust the width as needed */
         margin: 0 auto;
         /* Center the carousel horizontally */
@@ -124,7 +124,7 @@ hr {
 
 @media (max-width: 900px) {
     .carousel {
-        height: 1200px;
+        height: 1000px;
         /* Adjust the width as needed */
         margin: 0 auto;
         /* Center the carousel horizontally */
@@ -160,7 +160,7 @@ hr {
 
 @media (min-width: 1400px) {
     .carousel {
-        height: 900px;
+        height: 700px;
         /* Adjust the width as needed */
         margin: 0 auto;
         /* Center the carousel horizontally */
@@ -191,7 +191,7 @@ hr {
 
 @media (min-width: 1800px) {
     .carousel {
-        height: 1400px;
+        height: 1100px;
         /* Adjust the width as needed */
         margin: 0 auto;
         /* Center the carousel horizontally */
@@ -219,8 +219,8 @@ li {
     left: 0;
     right: 0;
     bottom: 0;
-    padding-right: 150px;
-    padding-left: 150px;
+    padding-right: 20px;
+    padding-left: 20px;
     text-align: center;
     height: 100%;
 }

@@ -4,12 +4,13 @@ import ProjectOne from "../assets/images/project_1.png"
 import ProjectTwo from "../assets/images/project_2.png"
 import ProjectThree from "../assets/images/project_3.png"
 import ProjectFour from "../assets/images/project_4.png"
+import ChezFlo from "../assets/images/chez_flo.png"
 import Test from "../assets/images/test.gif"
 import {
     Html5Original, Css3Original, PypiOriginal,
     NpmOriginalWordmark, JavascriptOriginal,
     FlaskOriginal, ReactOriginal, PythonOriginal, ExpressOriginal, BulmaPlain, MongodbPlain, MongooseOriginal,
-    PostgresqlOriginal, NetlifyOriginal, HerokuOriginal, SqlalchemyOriginal, SassOriginal, GithubOriginal
+    PostgresqlOriginal, NetlifyOriginal, HerokuOriginal, SqlalchemyOriginal, SassOriginal, GithubOriginal, TailwindcssOriginal
 } from 'devicons-react';
 import { Fade } from "react-awesome-reveal";
 function Projects() {
@@ -17,16 +18,19 @@ function Projects() {
         <span className='anchor' id='projects'></span>
         <Container fluid className='proj hover-underline-animation-proj'>
             <Fade direction='down' delay={500} triggerOnce>
-                <h3 className=' proj-title text-center p-3 '>Projects</h3>
+                <h3 className=' proj-title text-center py-1 '>Projects</h3>
                 <Carousel>
                     <Carousel.Item>
                         <Row className='carousel project'>
-                            <Carousel.Caption className=' p-4 m-0  d-flex justify-content-center align-items-center'>
+                            <Carousel.Caption className=' p-1 m-0  d-flex justify-content-center align-items-center'>
                                 <Row className='justify-content-center'>
                                     <Row className='p-0 m-0 justify-content-center align-items-center'>
-                                        <Col sm={12} md={12} lg={12} xl={6} xxl={6} >
+                                        <Col sm={12} md={12} lg={12} xl={12} xxl={12} className='text-center'>
                                             <h4>Star Wars - Space Invaders</h4>
                                             <h4>4 days - Solo</h4>
+                                            <div className='d-flex align-items-center justify-content-center my-2'>
+                                                <Image className="img-fluid" src={ProjectOne} fluid style={{ maxWidth: '400px' }} />
+                                            </div>
                                             <p className='proj-title '><strong>Tech Stack</strong></p>
                                             <Row className=' justify-content-center'>
                                                 <Col>
@@ -62,9 +66,6 @@ function Projects() {
                                                 </Col>
                                             </Row>
                                         </Col>
-                                        <Col sm={12} md={12} lg={12} xl={6} xxl={6} className='d-flex align-items-center justify-content-center'>
-                                            <Image className="img-fluid " src={ProjectOne} fluid />
-                                        </Col>
                                     </Row>
                                 </Row>
                             </Carousel.Caption>
@@ -72,15 +73,15 @@ function Projects() {
                     </Carousel.Item>
                     <Carousel.Item>
                         <Row className='carousel'>
-                            <Carousel.Caption className=' p-4 m-0  d-flex justify-content-center align-items-center'>
+                            <Carousel.Caption className=' p-1 m-0  d-flex justify-content-center align-items-center'>
                                 <Row className='justify-content-center'>
                                     <Row className='p-0 m-0 project justify-content-center align-items-center'>
-                                        <Col sm={12} md={12} lg={12} xl={6} xxl={6} className='d-flex align-items-center justify-content-center'>
-                                            <Image className="img-fluid " src={ProjectTwo} fluid />
-                                        </Col>
-                                        <Col sm={12} md={12} lg={12} xl={6} xxl={6} >
+                                        <Col sm={12} md={12} lg={12} xl={12} xxl={12} className='text-center'>
                                             <h4>Game of thrones</h4>
                                             <h4>3 days - pair</h4>
+                                            <div className='d-flex align-items-center justify-content-center my-2'>
+                                                <Image className="img-fluid" src={ProjectTwo} fluid style={{ maxWidth: '400px' }} />
+                                            </div>
                                             <p className='proj-title'><strong>Tech Stack</strong></p>
                                             <Row>
                                                 <Col className="text-center"><ReactOriginal size='40' />
@@ -123,12 +124,15 @@ function Projects() {
                     </Carousel.Item>
                     <Carousel.Item>
                         <Row className='carousel '>
-                            <Carousel.Caption className=' p-4 m-0  d-flex justify-content-center align-items-center'>
+                            <Carousel.Caption className=' p-1 m-0  d-flex justify-content-center align-items-center'>
                                 <Row className=' justify-content-center'>
                                     <Row className=' p-0 m-0 justify-content-center align-items-center'>
-                                        <Col sm={12} md={12} lg={12} xl={6} xxl={6} >
+                                        <Col sm={12} md={12} lg={12} xl={12} xxl={12} className='text-center'>
                                             <h4>Rouge wine cave</h4>
                                             <h4>5 days - pair</h4>
+                                            <div className='d-flex align-items-center justify-content-center my-2'>
+                                                <Image className="img-fluid" src={ProjectThree} fluid style={{ maxWidth: '400px' }} />
+                                            </div>
                                             <p className='proj-title'><strong>Tech Stack</strong></p>
                                             <Row>
                                                 <Col className="text-center"><ReactOriginal size='40' />
@@ -148,7 +152,7 @@ function Projects() {
                                                 On the third project I worked in a pair. We developed our own API using Express and MongoDB as our database. We also used React for our frontend. We built a wine dedicated app that is a cave builder where users could create an account, update account details and password.
                                             </p>
                                             <p>
-                                                I took ownership of developing the whole logic for adding wines to your own cave, looking for other users and seeing other user’s caves and account details alongside the design and outlook.
+                                                I took ownership of developing the whole logic for adding wines to your own cave, looking for other users and seeing other user's caves and account details alongside the design and outlook.
                                             </p>
                                             <Row className="text-center align-items-center justify-content-center">
                                                 <Col className="d-flex justify-content-center mb-3 mb-sm-0">
@@ -167,9 +171,6 @@ function Projects() {
                                                 </Col>
                                             </Row>
                                         </Col>
-                                        <Col sm={12} md={12} lg={12} xl={6} xxl={6} className='d-flex align-items-center justify-content-center'>
-                                            <Image className="img-fluid " src={ProjectThree} fluid />
-                                        </Col>
                                     </Row>
                                 </Row>
                             </Carousel.Caption>
@@ -177,15 +178,15 @@ function Projects() {
                     </Carousel.Item>
                     <Carousel.Item>
                         <Row className='carousel'>
-                            <Carousel.Caption className=' p-4 m-0 d-flex justify-content-center align-items-center'>
+                            <Carousel.Caption className=' p-1 m-0 d-flex justify-content-center align-items-center'>
                                 <Row className=' justify-content-center'>
                                     <Row className='p-0 m-0 project justify-content-center align-items-center'>
-                                        <Col sm={12} md={12} lg={12} xl={6} xxl={6} className='d-flex align-items-center justify-content-center'>
-                                            <Image className="img-fluid " src={ProjectFour} fluid />
-                                        </Col>
-                                        <Col sm={12} md={12} lg={12} xl={6} xxl={6} >
+                                        <Col sm={12} md={12} lg={12} xl={12} xxl={12} className='text-center'>
                                             <h4>Codestream</h4>
                                             <h4>9 days - solo</h4>
+                                            <div className='d-flex align-items-center justify-content-center my-2'>
+                                                <Image className="img-fluid" src={ProjectFour} fluid style={{ maxWidth: '400px' }} />
+                                            </div>
                                             <p className='proj-title'><strong>Tech Used</strong></p>
                                             <Row xs={12} >
                                                 <Col className="text-center"><ReactOriginal size='40' />
@@ -221,6 +222,62 @@ function Projects() {
                                                     <Button className="btn-change2" target="_blank" href='https://codestreamsocialmedia.netlify.app/'>
                                                         <Figure className='m-0'>
                                                             <p className='m-0'>   Website</p>
+                                                        </Figure>
+                                                    </Button>{' '}
+                                                </Col>
+                                            </Row>
+                                        </Col>
+                                    </Row>
+                                </Row>
+                            </Carousel.Caption>
+                        </Row>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <Row className='carousel'>
+                            <Carousel.Caption className=' p-1 m-0 d-flex justify-content-center align-items-center'>
+                                <Row className=' justify-content-center'>
+                                    <Row className='p-0 m-0 project justify-content-center align-items-center'>
+                                        <Col sm={12} md={12} lg={12} xl={12} xxl={12} className='text-center'>
+                                            <h4>Chez Flo - Restaurant Demo</h4>
+                                            <h4>1month - solo</h4>
+                                            <div className='d-flex align-items-center justify-content-center my-2'>
+                                                <Image className="img-fluid" src={ChezFlo} fluid style={{ maxWidth: '400px' }} />
+                                            </div>
+                                            <p className='proj-title'><strong>Tech Used</strong></p>
+                                            <Row xs={12} >
+                                                <Col className="text-center"><ReactOriginal size='40' />
+                                                    <p>React</p></Col>
+                                                <Col className="text-center"><PythonOriginal size='40' />
+                                                    <p>Python</p></Col>
+                                                <Col className="text-center"><PypiOriginal size='40' />
+                                                    <p>Pypi</p></Col>
+                                                <Col className="text-center"><FlaskOriginal size='40' />
+                                                    <p>Flask</p></Col>
+                                                <Col className="text-center"><SqlalchemyOriginal size='40' />
+                                                    <p>SQLAlchemy</p></Col>
+                                                <Col className="text-center"><TailwindcssOriginal size='40' />
+                                                    <p>Tailwindcss</p></Col>
+                                                <Col className="text-center"><PostgresqlOriginal size='40' />
+                                                    <p>PostgreSQL</p></Col>
+                                            </Row>
+                                            <p>I designed and developed a modern, mobile-friendly website for a restaurant, with a focus on simplicity, elegance, and ease of management. The goal was to provide the restaurant with an online presence that reflects its brand identity while allowing non-technical staff to easily update menus, specials, and images.
+                                            </p>
+                                            <p>
+                                                The restaurant now has a stylish, reliable website that reflects its brand and allows staff to update content in minutes. This improved both customer engagement and operational efficiency, while giving the restaurant full control over its digital presence.
+
+                                            </p>
+                                            <Row className="text-center align-items-center justify-content-center">
+                                                <Col className="d-flex justify-content-center mb-3 mb-sm-0">
+                                                    <Button className="btn-change1" target="_blank" href='https://github.com/florentgiovannone/CHEZ_FLO_FE/blob/main/README.md'>
+                                                        <Figure className='m-0'>
+                                                            <p className='m-0'>ReadMe</p>
+                                                        </Figure>
+                                                    </Button>{' '}
+                                                </Col>
+                                                <Col className="d-flex justify-content-center mb-3 mb-sm-0">
+                                                    <Button className="btn-change2" target="_blank" href='https://codestreamsocialmedia.netlify.app/'>
+                                                        <Figure className='m-0'>
+                                                            <p className='m-0'>Website</p>
                                                         </Figure>
                                                     </Button>{' '}
                                                 </Col>

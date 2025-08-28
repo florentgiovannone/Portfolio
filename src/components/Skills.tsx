@@ -7,7 +7,8 @@ import {
     ReactbootstrapOriginal, MongodbPlain, MongooseOriginal, InsomniaPlain,
     PostgresqlOriginal, NetlifyOriginal, HerokuOriginal, GitOriginal,
     GithubOriginal, SqlalchemyOriginal,
-    SassOriginal, TypescriptOriginal, PytestOriginalWordmark
+    SassOriginal, TypescriptOriginal, PytestOriginalWordmark,
+    NuxtjsOriginal,
 } from 'devicons-react';
 import { Fade } from "react-awesome-reveal";
 function Skills() {
@@ -134,6 +135,13 @@ function Skills() {
                             <ReactbootstrapOriginal size='50' />
                             <Card.Body>
                                 <Card.Text className="text-center">React Boostrap
+                                </Card.Text>
+                            </Card.Body>
+                        </Col>
+                        <Col xs={4} sm={4} md={2} lg={2} xl={2} xxl={2} className="   text-center" >
+                            <NuxtjsOriginal size='50' />
+                            <Card.Body>
+                                <Card.Text className="text-center">Nuxt.js
                                 </Card.Text>
                             </Card.Body>
                         </Col>

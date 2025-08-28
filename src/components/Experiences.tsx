@@ -9,6 +9,37 @@ function Experiences() {
                 <Container className='container pb-3' fluid>
                     <Row>
                         <Col xs='auto' lg={6} >
+                            <h5 className="d-flex justify-content-start">Sortware Engineer | Product owner | Head of I.T deployment</h5>
+                            <h5 className="d-flex justify-content-start">A Bet A Technology</h5>
+                        </Col>
+                        <Col xs='auto' lg={6}>
+                            <h5 className="d-flex justify-content-end">Jan 2025 - Now | Hybrid</h5>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <p className='mb-1'>I gained more experience in full-stack development and product ownership/management.</p>
+                        <p className='m-0'><strong>FRONTEND: React, Typescript, JavaScript, Nuxt.</strong></p>
+                        <p><strong>BACKEND: Python, couchbase. </strong></p>
+                        <ul>
+                            <li>Lead and manage end-to-end deployment of software solutions across
+                                multiple platforms, ensuring smooth rollouts for internal teams and external clients.</li>
+                            <li>Oversee product ownership responsibilities, including defining requirements,
+                                prioritising features, and aligning development with business goals.</li>
+                            <li>Collaborate with cross-functional teams (development, QA, integration, and
+                                client stakeholders) to deliver projects on time and to specification.</li>
+                            <li>Design and implement technical solutions in Python, React, and Nuxt,
+                                leveraging software engineering expertise to improve scalability, reliability, and
+                                performance.</li>
+                        </ul>
+                    </Row>
+                </Container>
+                <hr className='pb-3' />
+            </Fade>
+            <Fade direction='right' delay={500} triggerOnce>
+
+                <Container className='container pb-3' fluid>
+                    <Row>
+                        <Col xs='auto' lg={6} >
                             <h5 className="d-flex justify-content-start">Software Engineering Immersive Bootcamp</h5>
                             <h5 className="d-flex justify-content-start">General Assembly</h5>
                         </Col>
